@@ -1,5 +1,6 @@
 .featured-projects {
   text-align: center;
+  font-weight:400;
 }
 body {
 }
@@ -9,11 +10,7 @@ body {
   background-repeat: no-repeat;
   height: 900px;
 }
-.index-text-overlay {
 
-font-family: 'GFS Didot', serif;
-  
-}
 
 .footer-container {
   background-color: rgb(170, 226, 215, 0.5);
@@ -35,7 +32,4 @@ font-family: 'GFS Didot', serif;
   background-color: rgb(255, 255, 255, 0.6);
   text-transform: uppercase;
   font-family: 'GFS Didot', serif;
-}
-h2, h3{
-    font-family: 'GFS Didot', serif;
 }
