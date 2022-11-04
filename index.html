@@ -10,6 +10,9 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/style.css" />
     <script
       src="https://kit.fontawesome.com/d3bb061265.js"
@@ -22,7 +25,8 @@
     <!--navbar-->
     <nav
       class="navbar navbar-expand-lg fixed-top navbar-light text-dark"
-      style="background: rgb(183, 211, 244, 0.8)"
+       style="background-color:rgb(183, 211, 244, 0.7)  "
+
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="">Samantha Thibault</a>
@@ -52,13 +56,16 @@
       </div>
     </nav>
     <!--intro image-->
-    <div class="container-fluid background-image">
-       <h1 class="index-text-overlay">Front-end developer</h1>
-      <h2 class="index-text-overlay">Based in Calgary, AB, Canada</h2>
+    <!--add background-image class to div.container-fluid-->
+    <div class="position-relative">
+      <img src="/images/office2.png" alt="" class="img-fluid" />
+      <div class="position-absolute top-0 text-overlay-margin">
+        <h1 class="index-text-overlay">Front-end developer</h1>
+        <h2 class="index-text-overlay">Based in Calgary, AB, Canada</h2>
+      </div>
     </div>
-   
-      
-<!--feature project section-->
+
+    <!--feature project section-->
     <h2 class="featured-projects">Featured Projects</h2>
 
     <h3>project 1</h3>
@@ -66,27 +73,26 @@
     <h3>project 2</h3>
 
     <h3>project 3</h3>
-<!--footer links and navbar(only for logo)-->
+    <!--footer links and navbar(only for logo)-->
     <div class="container-fluid footer-container">
       <a href="/pages/about.html"> About</a>
       <a href="/pages/projects.html"> Projects</a>
       <a href="/pages/contact.html"> Contact</a>
     </div>
 
-
-
- <nav
-      class="navbar navbar-expand-lg sticky-bottom"
-      style="background: rgb(170, 226, 215,0.5)"
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background: linear-gradient(to top, rgb(183, 211, 244, 0.8) 28%, rgb(170, 226, 215,0.5) 67%)  "
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href=""><img src="/images/SamanthaThibaultLogoB&W.png" alt="" class="img-fluid footer-image"></a>
-        
+        <a class="navbar-brand" href=""
+          ><img
+            src="/images/STlogoB&W.svg"
+            alt="logo"
+            class="img-fluid footer-image"
+        /></a>
       </div>
-  </nav>
-
-
-
+    </nav>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
