@@ -1,8 +1,11 @@
-
+body{
+  min-height: 1000px;
+  background-color: rgb(242, 203, 190, 0.3);
+}
 .featured-projects {
   text-align: center;
-  font-weight:400;
-  margin-top: 80px
+  font-weight: 400;
+  margin-top: 80px;
 }
 
 .background-image {
@@ -12,10 +15,9 @@
   height: 1000px;
 }
 
-
 .footer-container {
-  margin-top:60px;
-  background-color: rgb(183, 211, 244, 0.7);
+  margin-top: 60px;
+  background-color: rgb(183, 211, 244, 0.5);
   display: flex;
   justify-content: center;
 }
@@ -33,19 +35,43 @@
   margin-top: 150px;
   background-color: rgb(255, 255, 255, 0.6);
   text-transform: uppercase;
-  font-family: 'GFS Didot', serif;
+  font-family: "GFS Didot", serif;
 }
 
-.pages-header{
-      font-family: 'GFS Didot', serif;
+.pages-header {
+  font-family: "GFS Didot", serif;
 }
-@media (max-width:700px) {
-.text-overlay{
+@media (max-width: 700px) {
+  .text-overlay {
     margin-top: 75px;
     font-size: 20;
-}
+  }
 }
 
-.content-container{
-margin: 10px 30px;
+.content-container {
+  max-width: 900px;
+ margin: 0 auto;
+ margin-bottom: 100px;
 }
+
+.content-container h1 {
+   margin-top: 80px;
+   margin-bottom: 60px;
+}
+
+.content-container img {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+ a button {
+  border: 2px solid rgb(170, 226, 215);
+  border-radius: 5px;
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px 20px;
+}
+ a button:hover{
+   background: rgb(183, 211, 244);
+
+}
+
