@@ -1,3 +1,4 @@
+
 .featured-projects {
   text-align: center;
   font-weight:400;
@@ -9,7 +10,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 1000px;
-  
 }
 
 
@@ -36,9 +36,6 @@
   font-family: 'GFS Didot', serif;
 }
 
-.pages{
-    margin-top: 100px;
-}
 .pages-header{
       font-family: 'GFS Didot', serif;
 }
@@ -47,4 +44,8 @@
     margin-top: 75px;
     font-size: 20;
 }
+}
+
+.content-container{
+margin: 10px 30px;
 }
