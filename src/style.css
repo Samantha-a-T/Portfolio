@@ -86,3 +86,19 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 30px;
 }
+.contact{
+margin: 0 auto;
+  max-width: 500px;
+
+}
+.fa-regular, .fa-brands{
+  font-size: 40px;
+  color: rgb(163, 200, 242);
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+gap: 50px;
+justify-content: center;
+
+}
