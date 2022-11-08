@@ -1,79 +1,8 @@
-body {
-  min-height: 1000px;
-}
-.featured-projects {
-  text-align: center;
-  font-weight: 400;
-}
-
-.index-background {
-  background-image: url("/../images/office2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 100px;
-}
-
-.footer-container {
-  margin-top: 100px;
-  background-color: rgb(183, 211, 244, 0.5);
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 130px;
-}
-.footer-links {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-
-.footer-links a {
-  color: black;
-}
-.footer-icons {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  align-content: baseline;
-}
-.footer-icons a i {
-  color: rgb(242, 203, 190);
-  font-size: 40px;
-}
-.text-overlay {
-  margin-top: 150px;
-  background-color: rgb(255, 255, 255, 0.6);
-  text-transform: uppercase;
-  font-family: "GFS Didot", serif;
-}
-
 @media (max-width: 700px) {
   .text-overlay {
     margin-top: 75px;
     font-size: 20;
   }
-}
-
-.content-container,
-.portfolio-skills {
-  max-width: 900px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  background-color: rgb(242, 203, 190, 0.3);
-  padding: 0 70px 70px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.content-container h1 {
-  margin-top: 80px;
-  margin-bottom: 60px;
-  padding-top: 40px;
-  font-family: "GFS Didot", serif;
-}
-
-.content-container img {
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 a button {
   border: 2px solid rgb(170, 226, 215);
@@ -86,21 +15,77 @@ a button:hover {
   background: rgb(183, 211, 244);
 }
 
-.portfolio-skills {
-  padding-top: 80px;
-}
 p {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 30px;
 }
-.contact {
-  margin: 0 auto;
-  max-width: 500px;
+.index-background {
+  background-image: url("/../images/office2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.text-overlay {
+  margin-top: 150px;
+  background-color: rgb(255, 255, 255, 0.6);
+  text-transform: uppercase;
+}
+.text-overlay,
+.content-container h1 {
+  font-family: "GFS Didot", serif;
 }
 .content-container i {
-  font-size: 40px;
   color: rgb(163, 200, 242);
 }
+.content-container img {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.content-container h1 {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  padding-top: 40px;
+}
+
+.content-container,
+.portfolio-skills {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-color: rgb(242, 203, 190, 0.3);
+  padding: 0 70px 70px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.footer-container a i,
+.content-container i {
+  font-size: 40px;
+}
+
+.footer-container {
+  margin-top: 100px;
+  background-color: rgb(183, 211, 244, 0.5);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 130px;
+}
+.footer-links,
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: black;
+}
+
+.footer-icons a i {
+  color: rgb(242, 203, 190);
+}
+
 .icons {
   display: flex;
   flex-direction: row;
