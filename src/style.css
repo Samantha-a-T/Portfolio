@@ -53,6 +53,7 @@ body {
   margin-bottom: 100px;
   background-color: rgb(242, 203, 190, 0.3);
   padding: 0 70px 70px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .content-container h1 {
@@ -77,8 +78,9 @@ a button:hover {
 
 .portfolio-skills {
   max-width: 450px;
-  margin: 0 auto;
-  padding-top: 100px;
+  margin: 50px 155px 0;
+  background-color: rgb(242, 203, 190, 0.3);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
