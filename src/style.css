@@ -69,13 +69,14 @@ p {
   height: 200px;
   display: flex;
   flex-direction: column;
-  row-gap: 130px;
+  row-gap: 135px;
 }
 .footer-links,
 .footer-icons {
   display: flex;
   gap: 20px;
   justify-content: center;
+
 }
 
 .footer-links a {
@@ -91,4 +92,10 @@ p {
   flex-direction: row;
   gap: 50px;
   justify-content: center;
+}
+.coder{
+  display: flex;
+  justify-content: center;
+height: 30px;
+  background-color: rgb(183, 211, 244, 0.5);
 }
