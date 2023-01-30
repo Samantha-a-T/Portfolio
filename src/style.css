@@ -1,9 +1,3 @@
-@media (max-width: 700px) {
-  .text-overlay {
-    margin-top: 75px;
-    font-size: 20;
-  }
-}
 a button {
   border: 2px solid rgb(170, 226, 215);
   border-radius: 5px;
@@ -76,7 +70,6 @@ p {
   display: flex;
   gap: 20px;
   justify-content: center;
-
 }
 
 .footer-links a {
@@ -93,9 +86,27 @@ p {
   gap: 50px;
   justify-content: center;
 }
-.coder{
+.coder {
   display: flex;
   justify-content: center;
-height: 30px;
+  height: 30px;
   background-color: rgb(183, 211, 244, 0.5);
+}
+@media (max-width: 700px) {
+  .text-overlay {
+    margin-top: 75px;
+    font-size: 20;
+  }
+  .content-container.projects h2 {
+    margin-top: 10px;
+  }
+  .content-container.projects a,
+  .content-container.projects button,
+  .content-container.index a,
+  .content-container.index button {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 100%;
+  }
 }
