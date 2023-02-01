@@ -92,6 +92,11 @@ p {
   height: 30px;
   background-color: rgb(183, 211, 244, 0.5);
 }
+
+.resume-link{
+  color: rgb(160, 197, 239);
+  font-weight: 900;
+}
 @media (max-width: 700px) {
   .text-overlay {
     margin-top: 75px;
